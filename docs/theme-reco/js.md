@@ -7,4 +7,4 @@ tags:
 - javaScript
 ---
 
-This is js.
+This is javaScript.
