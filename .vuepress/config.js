@@ -83,6 +83,10 @@ module.exports = {
       //   "link": "https://vuepress-theme-reco.recoluan.com"
       // }
     ],
+    "valineConfig": {
+      "appId": 'dAEh4qNi9vnPbrr5P5sxluC7-gzGzoHsz',// your appId
+      "appKey": 'q7Gl90WG1kta7vVVonYqTXy8', // your appKey
+    },
     "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
@@ -90,7 +94,7 @@ module.exports = {
     "author": "nanb",
     "authorAvatar": "/logo.jpg",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2019"
   },
   "markdown": {
     "lineNumbers": true
