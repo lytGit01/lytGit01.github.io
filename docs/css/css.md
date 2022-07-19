@@ -1,10 +1,8 @@
----
-title: Vue
 date: 2022-07-11
 categories:
-- vue
+- css
 tags:
-- vue
+- css
 ---
 
-This is vue.
+This is css.
