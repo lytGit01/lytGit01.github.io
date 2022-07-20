@@ -3,7 +3,7 @@ title: promise、async wait
 date: 2022-07-11
 categories:
 - javaScript
-  tags:
+tags:
 - javaScript
 ---
 
@@ -80,3 +80,5 @@ fn.then(reslove => {
     
 }, reject => {})
 ```
+
+### genereator原理

@@ -78,7 +78,7 @@ console.log(c.a) // 3
 // 还有种就是利用 call，apply，bind 改变 this，这个优先级仅次于 new
 ```
 ### async、await优缺点
-### genereator原理
+
 ### ===、==区别，什么时候使用
 ```
 1. === 比较值和类型
@@ -106,4 +106,3 @@ function a() {
 ```
 ### 数组降维
 ### 深拷贝
-### Promise（手写）
