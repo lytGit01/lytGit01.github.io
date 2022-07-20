@@ -105,4 +105,20 @@ function a() {
  */
 ```
 ### 数组降维
+```js
+let arrs = [1, [2, [3]], 4]
+const flatFn = arr => Array.isArray(arr) ? arr.reduce((a, b) => [...a, ...flatFn(b)], []) : [arr]
+flatFn(arrs) // [1, 2, 3, 4]
+```
 ### 深拷贝
+```js
+// 实现深拷贝
+JSON.stringify()
+JSON.parse()
+/*
+* 忽略 undefind
+* 忽略 Symbol
+* 不能序列化函数
+* 循环引用会报错
+* */
+```
