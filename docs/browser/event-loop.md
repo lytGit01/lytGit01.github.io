@@ -26,7 +26,7 @@ tags:
 #### 把 Event Loop 当做一个游乐场的游戏，宏任务队列 中的小朋友(任务)，玩过一次游戏后，需要重新到队尾排队才能再玩，而 微任务队列 中的小朋友(任务)，可以插队继续玩
 
 ### 宏观任务
-> script、 setTimeout、setInterval、setImmediate、I/O、UI rendering
+> script、 setTimeout、setInterval、setImmediate、I/O、UI rendering、requestAnimationFrame、MessageChannel
 ### 微观任务
 > process.nextTick、promise、Object.observe、MutationObserver
 ```
