@@ -164,6 +164,8 @@ export default {
 * vueDraggable 拖拽组件 [https://www.itxst.com/vue-draggable/tutorial.html](https://www.itxst.com/vue-draggable/tutorial.html)
 * monaco-vue-demo 编辑器 [https://github.com/JakHuang/monaco-vue-demo](https://github.com/JakHuang/monaco-vue-demo)
 * 对外抛出两个组件 1. 表单编辑器 2. 表单生成器
+* [数据结构](https://lytgit01.github.io/docs/low-code/low-code-data.html)
+
 :::
 #### 表单编辑器
 ![An image](./3.jpg)
