@@ -7,8 +7,8 @@ categories:
 - lowCode
 ---
 
-```json
-export const basicComponents = [
+```js
+const basicComponents = [
   {
     elementType: "标题控件",
     index: 0,
@@ -90,7 +90,7 @@ export const basicComponents = [
   }
 ]
 
-export const advanceComponents = [
+const advanceComponents = [
   {
     elementType: "上传控件",
     fileType: "1",
