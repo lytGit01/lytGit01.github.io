@@ -7,6 +7,22 @@ tags:
 - lowCode
 ---[[toc]]
 
+
+### 表单数据
+```json lines
+{
+list: [], // 子组件数据
+config: {
+  labelWidth: 100, // 标题宽度
+  formName: '', // 表单名称
+  labelPosition: 'left', // 对齐方式
+  size: 'small', // 组件尺寸
+  width: '100%' // 表单宽度
+}
+}
+
+```
+
 ### 1. 标题控件
 ```json lines
 {
