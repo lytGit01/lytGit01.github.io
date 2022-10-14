@@ -115,17 +115,37 @@ tags:
   codes: [
     {code: '1', name: '选项1'}
   ], // 下级选项
-  value: '', // 默认值
+  multiple: false, // 多选
+  value: '', // 默认值 单选为 String 多选为 Array
   defaultVal: '', // 默认选项
   name: "ztxs", // 关联字段值
   required: false, // 必填
-  multiple: false, // 多选
   relation: [], // 关联关系
   show: true // 显示组件
 }
 ```
 
-### 7. 日期控件
+### 7. 下拉框搜索控件
+```json lines
+{
+  type: "auto_select", // 组件类型
+  elementType: "下拉搜索控件", // 侧栏名称
+  dataType: "auto_select", // 兼容多类型组件
+  placeholder: "请选择", // 占位内容
+  label: "载体形式", // 标题
+  index: 6, // 排序【待删除】
+  codes: [], // 下级选项
+  value: '', // 默认值
+  defaultVal: '', // 默认选项
+  name: "ztxs", // 关联字段值
+  required: false, // 必填
+  relation: [], // 关联关系
+  multiple: false, // 多选
+  show: true // 显示组件
+}
+```
+
+### 8. 日期控件
 ```json lines
 {
   type: "date_picker", // 组件类型
@@ -133,7 +153,7 @@ tags:
   dataType: 'date', // 兼容多类型组件
   placeholder: '请选择日期', // 占位内容
   errTip: '请选择日期', // 日期错误提示语
-  index: 6, // 排序【待删除】
+  index: 7, // 排序【待删除】
   label: "日期",  // 标题
   name: "xwhfrq", // 关联字段值
   required: false, // 必填
@@ -141,13 +161,13 @@ tags:
 }
 ```
 
-### 8. 上传控件
+### 9. 上传控件
 ```json lines
 {
   type: "upload", // 组件类型
   elementType: "上传控件", // 侧栏名称
   fileType: "1", // 业务文件类型
-  index: 7, // 排序【待删除】
+  index: 8, // 排序【待删除】
   label: "申请书", // 标题
   limit: 1, // 文件上传个数限制
   maxSize: 10, // 单文件上传大小限制
@@ -162,20 +182,19 @@ tags:
 }
 ```
 
-### 9. 级联组件
+### 10. 级联组件
 ```json lines
-{
+  {
   type: "cascader", // 组件类型
-  elementType: "级联控件", // 侧栏名称
-  name: "sqs", // 关联字段值
-  index: 7, // 排序【待删除】
-  label: "申请书", // 标题
-  placeholder: '请选择', // 占位内容
+  elementType: "级联选择器控件", // 侧栏名称
+  dataType: "cascader", // 兼容多类型组件
+  label: "级联选择器",  // 标题
+  index: 9, // 排序【待删除】
+  name: "cascader", // 关联字段值
+  value: '', // 默认值
   required: false, // 必填
-  codes: [], // 数据结构暂时不清楚
   relation: [], // 关联关系
-  value: '',
-  remark: '', // 描述
+  placeholder: '请选择', // 占位内容
   show: true // 显示组件
 }
 ```
