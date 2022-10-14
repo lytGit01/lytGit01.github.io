@@ -13,7 +13,7 @@ tags:
   type: "title", // 类型
   elementType: "标题控件", // 侧栏名称
   dataType: "title",
-  index: 0, // 排序
+  index: 0, // 排序【待删除】
   label: "标题控件", // 标题
   remark: '', // 描述
   name: "cust_title", // key值
@@ -26,7 +26,7 @@ tags:
   type: "div", // 类型
   elementType: "div控件", // 侧栏名称
   dataType: "div", // 兼容多类型组件
-  index: 1, // 排序
+  index: 1, // 排序【待删除】
   label: "div控件", // 标题
   name: "cust_div", // 关联字段值
   remark: '', // 描述
@@ -35,14 +35,14 @@ tags:
 }
 ```
 
-#### 3. 单行文本控件
+### 3. 单行文本控件
 ```json lines
  {
   type: "text", // 组件类型
   elementType: "多行文本", // 侧栏名称
   dataType: "textarea", // 兼容多类型组件
   autosize: {maxRows: 5, minRows: 2}, // 多行文本行数限制
-  index: 3, // 排序
+  index: 3,// 排序【待删除】
   label: "多行文本", // 标题
   maxLength: 500, // 最大长度限制
   name: "cust_textarea",// 关联字段值
@@ -56,14 +56,14 @@ tags:
 }
 ```
 
-#### 4. 多行文本控件
+### 4. 多行文本控件
 ```json lines
 {
   type: "text", // 组件类型
   elementType: "多行文本", // 侧栏名称
   dataType: "textarea", // 兼容多类型组件
   autosize: {maxRows: 5, minRows: 2}, // 多行文本行数限制
-  index: 3, // 排序
+  index: 3, // 排序【待删除】
   label: "多行文本", // 标题
   maxLength: 500, // 最大长度限制
   name: "cust_textarea",// 关联字段值
@@ -77,13 +77,13 @@ tags:
 }
 ```
 
-#### 5. 金额控件
+### 5. 金额控件
 ```json lines
 {
   type: "text", // 组件类型
   elementType: "金额控件", // 侧栏名称
   dataType: "decimal", // 兼容多类型组件
-  index: 4, // 排序
+  index: 4, // 排序【待删除】
   label: "金额控件",  // 标题
   maxLength: 500, // 最大长度限制
   name: "cust_decimal", // 关联字段值
@@ -102,13 +102,13 @@ tags:
 }
 ```
 
-#### 6. 下拉框控件
+### 6. 下拉框控件
 ```json lines
 {
   type: "select", // 组件类型
   elementType: "下拉框控件", // 侧栏名称
   dataType: "select", // 兼容多类型组件
-  index: 5, // 排序
+  index: 5, // 排序【待删除】
   placeholder: "请选择", // 占位内容
   label: "载体形式", // 标题
   codeType: "12014",
@@ -125,7 +125,7 @@ tags:
 }
 ```
 
-#### 7. 日期控件
+### 7. 日期控件
 ```json lines
 {
   type: "date_picker", // 组件类型
@@ -133,7 +133,7 @@ tags:
   dataType: 'date', // 兼容多类型组件
   placeholder: '请选择日期', // 占位内容
   errTip: '请选择日期', // 日期错误提示语
-  index: 6, // 排序
+  index: 6, // 排序【待删除】
   label: "日期",  // 标题
   name: "xwhfrq", // 关联字段值
   required: false, // 必填
@@ -141,13 +141,13 @@ tags:
 }
 ```
 
-#### 8. 上传控件
+### 8. 上传控件
 ```json lines
 {
   type: "upload", // 组件类型
   elementType: "上传控件", // 侧栏名称
   fileType: "1", // 业务文件类型
-  index: 7, // 排序
+  index: 7, // 排序【待删除】
   label: "申请书", // 标题
   limit: 1, // 文件上传个数限制
   maxSize: 10, // 单文件上传大小限制
@@ -162,13 +162,13 @@ tags:
 }
 ```
 
-#### 9. 级联组件
+### 9. 级联组件
 ```json lines
 {
   type: "cascader", // 组件类型
   elementType: "级联控件", // 侧栏名称
   name: "sqs", // 关联字段值
-  index: 7, // 排序
+  index: 7, // 排序【待删除】
   label: "申请书", // 标题
   placeholder: '请选择', // 占位内容
   required: false, // 必填
