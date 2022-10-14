@@ -12,7 +12,7 @@ tags:
 {
   type: "title", // 类型
   elementType: "标题控件", // 侧栏名称
-  dataType: "title",
+  iconName: "title", // icon名称
   index: 0, // 排序【待删除】
   label: "标题控件", // 标题
   remark: '', // 描述
@@ -25,7 +25,7 @@ tags:
  {
   type: "div", // 类型
   elementType: "div控件", // 侧栏名称
-  dataType: "div", // 兼容多类型组件
+  iconName: "div", // icon名称
   index: 1, // 排序【待删除】
   label: "div控件", // 标题
   name: "cust_div", // 关联字段值
@@ -40,7 +40,8 @@ tags:
  {
   type: "text", // 组件类型
   elementType: "多行文本", // 侧栏名称
-  dataType: "textarea", // 兼容多类型组件
+  dataType: "text", // 兼容多类型组件
+  iconName: "text", // icon名称
   autosize: {maxRows: 5, minRows: 2}, // 多行文本行数限制
   index: 3,// 排序【待删除】
   label: "多行文本", // 标题
@@ -62,6 +63,7 @@ tags:
   type: "text", // 组件类型
   elementType: "多行文本", // 侧栏名称
   dataType: "textarea", // 兼容多类型组件
+  iconName: "textarea", // icon名称
   autosize: {maxRows: 5, minRows: 2}, // 多行文本行数限制
   index: 3, // 排序【待删除】
   label: "多行文本", // 标题
@@ -83,6 +85,7 @@ tags:
   type: "text", // 组件类型
   elementType: "金额控件", // 侧栏名称
   dataType: "decimal", // 兼容多类型组件
+  iconName: "decimal", // icon名称
   index: 4, // 排序【待删除】
   label: "金额控件",  // 标题
   maxLength: 500, // 最大长度限制
@@ -108,6 +111,7 @@ tags:
   type: "select", // 组件类型
   elementType: "下拉框控件", // 侧栏名称
   dataType: "select", // 兼容多类型组件
+  iconName: "select", // icon名称
   index: 5, // 排序【待删除】
   placeholder: "请选择", // 占位内容
   label: "载体形式", // 标题
@@ -131,12 +135,13 @@ tags:
   type: "auto_select", // 组件类型
   elementType: "下拉搜索控件", // 侧栏名称
   dataType: "auto_select", // 兼容多类型组件
+  iconName: "auto_select", // icon名称
   placeholder: "请选择", // 占位内容
   label: "载体形式", // 标题
   index: 6, // 排序【待删除】
   codes: [], // 下级选项
   value: '', // 默认值
-  defaultVal: '', // 默认选项
+  enumCode: '', // 其他类型的选项，用户可以自己自定义填写选项
   name: "ztxs", // 关联字段值
   required: false, // 必填
   relation: [], // 关联关系
@@ -151,6 +156,7 @@ tags:
   type: "date_picker", // 组件类型
   elementType: "日期控件", // 侧栏名称
   dataType: 'date', // 兼容多类型组件
+  iconName: "date_picker", // icon名称
   placeholder: '请选择日期', // 占位内容
   errTip: '请选择日期', // 日期错误提示语
   index: 7, // 排序【待删除】
@@ -166,6 +172,7 @@ tags:
 {
   type: "upload", // 组件类型
   elementType: "上传控件", // 侧栏名称
+  iconName: "upload", // icon名称
   fileType: "1", // 业务文件类型
   index: 8, // 排序【待删除】
   label: "申请书", // 标题
@@ -188,6 +195,7 @@ tags:
   type: "cascader", // 组件类型
   elementType: "级联选择器控件", // 侧栏名称
   dataType: "cascader", // 兼容多类型组件
+  iconName: "cascader", // icon名称
   label: "级联选择器",  // 标题
   index: 9, // 排序【待删除】
   name: "cascader", // 关联字段值
