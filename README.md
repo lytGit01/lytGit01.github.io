@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 南北个人笔记
-tagline: 基于vuepress重构个人博客网站.
+heroText: 南北笔记
+tagline: 路漫漫其修远兮，吾将上下而求索。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
