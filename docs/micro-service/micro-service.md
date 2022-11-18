@@ -85,6 +85,7 @@ tags:
 
 ### 4. qiankun方案
 [qiankun 官方文档很详细直接看官方文档](https://qiankun.umijs.org/zh/guide/tutorial)
+![An image](../static/img/qinkunLife.png)
 #### 注意事项
 ```
 1. 子项目必须配置允许跨域
@@ -199,12 +200,13 @@ export default {
 }
 </script>
 ```
+![An image](../static/img/MFLife.png)
 
 ### 6. MF vs qiankun
-| 方案                        | 维度  | 定义 | 技术实现 | 使用场景             |
-|---------------------------|-----|---|------|------------------|
-| Module Federation | 模块  | 由多个互相独立的模块聚合而成的应用 |   模块本质上是JS代码片段，这种代码片段一般称为chunk。因此，模块的聚合，实际上是chunk的聚合。   | 适用组间库开发、项目组件相互引用 |
-| qiankun                   | 应用  |  由多个互相独立的应用聚合而成的应用 |   应用本质上是HTML，而在SPA中，HTML又是main.js进行填充的。因此，应用的聚合，实际上是main.js的聚合。 | 适用于多项目结合、组合项目    |
+| 方案                 | 维度  | 定义 | 技术实现 | 使用场景             |
+|--------------------|-----|---|------|------------------|
+| Module Federation  | 模块  | 由多个互相独立的模块聚合而成的应用 |   模块本质上是JS代码片段，这种代码片段一般称为chunk。因此，模块的聚合，实际上是chunk的聚合。   | 适用组间库开发、项目组件相互引用 |
+| qiankun            | 应用  |  由多个互相独立的应用聚合而成的应用 |   应用本质上是HTML，而在SPA中，HTML又是main.js进行填充的。因此，应用的聚合，实际上是main.js的聚合。 | 适用于多项目结合、组合项目    |
 
 ### 7. 思考引入 ModuleFederation、qiankun需要的代价 
 #### qiankun
@@ -222,8 +224,14 @@ export default {
 4. 需要以MF方案构建一个通用组件库
 ```
 
-### 总结
+### 8. 总结
 ::: tip
 存在即合理，每种技术方案都有应场景，都存在优势、不足； 前端微服务实践要考虑分析现有项目的应用场景及想要实现的目标，
 选择适合的技术方案，往往比最新或最优的技术方案更加实用
 :::
+
+### 9. 参考及相关链接
+- [webpack5模块联邦(Module Federation)](https://zhuanlan.zhihu.com/p/485148715)
+- [webpack官网](https://webpack.docschina.org/plugins/module-federation-plugin/)
+- [qiankun开发介绍](https://qiankun.umijs.org/zh/guide)
+- [EMP开发介绍](https://emp2.netlify.app/)
