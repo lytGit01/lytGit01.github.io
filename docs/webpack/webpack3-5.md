@@ -26,7 +26,7 @@ tags:
 
 ### 2. webpack5环境要求
 ::: tip
-- Webpack 5 对 Node.js 的版本要求至少是 10.13.0
+- Webpack 5 对 Node.js 的版本要求至少是 10.13.0 (部分依赖需要node14.2+版本，建议选择14.2.0+ 版本)
 :::
 
 ### 3. 升级步骤
@@ -205,6 +205,11 @@ new CopyWebpackPlugin({
     new NodePolyfillPlugin()
   ]
 ```
+
+### 6. 总结
+::: tip
+- 以上是 Webpack3 升级至 Webpack5 常见问题，完成后需要运行控制台看看是否存在版本不匹配，API弃用、变换问题
+  :::
 
 ###  参考及相关链接
 - [链接1](https://www.codetd.com/article/14520236)
