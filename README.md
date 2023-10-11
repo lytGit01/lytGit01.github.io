@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 南北笔记
-tagline: 路漫漫其修远兮，吾将上下而求索。
+tagline: 知行合一, 得到功成
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
