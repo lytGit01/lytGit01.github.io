@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 南北笔记
+heroText: 南北笔记 
 tagline: 
 # heroImage: /hero.png
 # heroImageStyle: {
