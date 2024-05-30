@@ -1,7 +1,7 @@
 {
   "name": "nanbBlog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "lyt",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "set NODE_OPTIONS=–openssl-legacy-provider & vuepress build ."
