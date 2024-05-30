@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 南北笔记
-tagline: 知行合一, 得到功成
+tagline: 
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

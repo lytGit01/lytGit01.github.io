@@ -1,5 +1,5 @@
 ---
-title: 华宇九品低代码方案
+title: 低代码方案
 date: 2022-09-23
 categories:
 - lowCode
