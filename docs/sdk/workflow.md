@@ -104,46 +104,8 @@ tags:
       "nodeExtend":"{}"
     },
     "executionListeners":[]
-  }
-}
-```
-
-#### 位置标签
-```xml
-<!--图形-->
-<bpmndi:BPMNShape id="BPMNShape_start" bpmnElement="start">
-    <dc:Bounds x="882" y="100" width="36" height="36" />
-<bpmndi:BPMNLabel>
-<!--连接线-->
-<bpmndi:BPMNEdge id="Flow_node_078461436617_line" bpmnElement="Flow_node_078461436617">
-    <di:waypoint x="900" y="336" />
-    <di:waypoint x="900" y="406" />
-    <bpmndi:BPMNLabel>
-        <dc:Bounds x="838" y="362" width="80" height="14" />
-    </bpmndi:BPMNLabel>
-</bpmndi:BPMNEdge>
-```
-```json
-{
-    "x": "0",
-    "y": "0", 
-    "width": "80",
-    "height": "80",
-    "lineWidth": "184",
-    "line": [
-        { "x":  "0", "y": "0"},
-        { "x":  "0", "y": "0"}
-    ],
-    "label": {
-        "x":  "0",
-        "y": "0",
-        "width": "80",
-        "height": "80"
-    },
-    "endPoint": {
-        "x": "0",
-        "y": "0"
-    }
+  },
+  "children": {}
 }
 ```
 
@@ -217,6 +179,46 @@ tags:
   }
 }
 ```
+
+#### 位置标签
+```xml
+<!--图形-->
+<bpmndi:BPMNShape id="BPMNShape_start" bpmnElement="start">
+    <dc:Bounds x="882" y="100" width="36" height="36" />
+<bpmndi:BPMNLabel>
+<!--连接线-->
+<bpmndi:BPMNEdge id="Flow_node_078461436617_line" bpmnElement="Flow_node_078461436617">
+    <di:waypoint x="900" y="336" />
+    <di:waypoint x="900" y="406" />
+    <bpmndi:BPMNLabel>
+        <dc:Bounds x="838" y="362" width="80" height="14" />
+    </bpmndi:BPMNLabel>
+</bpmndi:BPMNEdge>
+```
+```json
+{
+    "x": "0",
+    "y": "0", 
+    "width": "80",
+    "height": "80",
+    "lineWidth": "184",
+    "line": [
+        { "x":  "0", "y": "0"},
+        { "x":  "0", "y": "0"}
+    ],
+    "label": {
+        "x":  "0",
+        "y": "0",
+        "width": "80",
+        "height": "80"
+    },
+    "endPoint": {
+        "x": "0",
+        "y": "0"
+    }
+}
+```
+
 ### 4. 实现XML、JSON互转
 #### XML转JSON
 > ![An image](./3.png)
