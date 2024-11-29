@@ -58,7 +58,6 @@ tags:
 | 事件名称                     |  描述           |   参数  | 回调参数                  |
 | ----------------------------|----------------| --------|------------------------ |
 | createParams                |  获取表单数据    |    无     |{initFinished: true【初始化完成】,valid: allValid【检验结果】,value: this.submitData【提交数据】}	|
-#### [README地址](http://npm.thunisoft.com/-/web/detail/@com.thunisoft.9law/uni-generate-form)
 
 ### 6. 自定义组件复杂功能设计思路
 #### 6.1 注册公式设计思路
