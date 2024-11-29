@@ -112,7 +112,7 @@ tags:
 #### 监听器
 ```xml
 <bpmn2:extensionElements>
-    <flowable:executionListener class="com.thunisoft.ninelaw.ninelawflow.engine.listenerImpl.TestListener" event="executing" execute="class">
+    <flowable:executionListener class="ninelawflow.engine.listenerImpl.TestListener" event="executing" execute="class">
         <flowable:field name="aaa">
             <flowable:string>111</flowable:string>
         </flowable:field>
@@ -124,7 +124,7 @@ tags:
   "executionListeners":[{
     "event":"executing",
     "execute":"class",
-    "class":"com.thunisoft.ninelaw.ninelawflow.engine.listenerImpl.TestListener",
+    "class":"engine.listenerImpl.TestListener",
     "fields":[
       {"value":"111","key":"aaa"}
     ]

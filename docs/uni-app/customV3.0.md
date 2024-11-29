@@ -25,18 +25,18 @@ tags:
 #### 3.1 构建SDK
 ```text
 1. cd /进入当前层级目录
-2. 登录公司组件库地址 npm adduser --registry http://npm.thunisoft.com/
-3. 发布组件 npm publish --registry http://npm.thunisoft.com/
+2. 登录公司组件库地址 npm adduser --**
+3. 发布组件 npm publish --registry **
 ```
 #### 3.2 在uniApp中引入npm
 ```text
 1. 打开uniapp项目，在终端中输入命令npm init，创建一个package.json文件。
-2. 在终端中输入命令npm install "@com.thunisoft.9law/uni-generate-form"
+2. 在终端中输入命令npm install **
 3. 在需要使用npm包的页面中，使用import语句引入所需的npm包。
 4. 在引入npm包后，即可在页面中使用该npm包提供的功能。
 ```
 
-### 4. uniApp插件市场、公司npm仓库库特点介绍
+### 4. uniApp插件市场、仓库库特点介绍
 | 名称          | 特点介绍                                                                      |
 |-------------|---------------------------------------------------------------------------|
 | uniApp插件市场  | 1. uniApp 官网推荐方案 <br/> 2. 与HBuilder编辑器结合使用可视化发布引入插件 <br/> 3. 开源可提升开发团队知名度 |
