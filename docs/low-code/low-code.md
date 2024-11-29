@@ -181,15 +181,6 @@ npm run serve
 // "build-bundle": "vue-cli-service build --target lib --name FormMaking ./src/index.js",
 npm run build-bundle
 
-// 登录公司组件库地址
-npm adduser --registry http://npm.thunisoft.com/
-
-// 发布组件
-npm publish --registry http://npm.thunisoft.com/
-
-// 在项目中更新最新依赖包
-npn install @com.thunisoft.9law@版本号 --save
-
 // 重新启动
 npm run serve
 ```
